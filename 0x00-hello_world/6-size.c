@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char D;
+	char d;
 	int num;
 	long int num1;
 	long long int num2;
@@ -16,6 +16,6 @@ printf("Size of a char: %zu byte(s)\n", sizeof(D));
 printf("Size of an int: %zu byte(s)\n", sizeof(num));
 printf("Size of a long int: %zu byte(s)\n", sizeof(num1));
 printf("Size of a long long int: %zu byte(s)\n", sizeof (num2));
-printf("Size of a float: %zu byte(s)", sizeof(num3));
+printf("Size of a float: %zu byte(s)\n", sizeof(num3));
 return (0);
 }
