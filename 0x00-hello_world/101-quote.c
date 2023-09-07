@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  *
- * Return: if 1 is Success
+ * Return: 1 (Success)
  */
 int main(void)
 {
-if("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+put("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 return (1);
 }
