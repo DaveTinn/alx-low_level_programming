@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -pedantic $CFILE -o c
+gcc -E $CFILE -o c
