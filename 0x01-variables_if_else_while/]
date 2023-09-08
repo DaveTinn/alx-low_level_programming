@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: 0 Always (Success)
+ */
+
+int main(void)
+{
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(alphabet);
+	if (alphabet != 'q' && alphabet != 'e');
+	putchar(alphabet);
+	return (0);
+}
