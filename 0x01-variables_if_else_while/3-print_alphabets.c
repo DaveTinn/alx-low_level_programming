@@ -8,7 +8,6 @@
 int main(void)
 {
 	char upperLower;
-
 	
 	for (upperLower = 'a'; upperLower <= 'z'; upperLower++)
 	putchar(upperLower);
