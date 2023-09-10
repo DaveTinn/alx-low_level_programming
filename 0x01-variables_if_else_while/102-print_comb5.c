@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+
 /**
  * main - Entry point
  *
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-	int x,y;
+	int x, y;
 
 	for (x = 0; x < 99; x++)
 	{
