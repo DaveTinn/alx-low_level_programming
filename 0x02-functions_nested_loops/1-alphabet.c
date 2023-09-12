@@ -3,7 +3,7 @@
 /**
  * print_alphabet - check the code
  *
- * Return: Always o.
+ * Return: Always 0.
  */
 void print_alphabet(void)
 {
