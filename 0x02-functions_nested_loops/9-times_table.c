@@ -18,9 +18,11 @@ void times_table(void)
 		{
 			_putchar(',');
 			-putchar(' ');
-			product = d * e;
+			product = d * e
 			if (product <= 9)
+			{
 				_putchar(' ');
+			}
 			else
 				_putchar((product / 10) + '0');
 				_putchar((product % 10) + '0');
