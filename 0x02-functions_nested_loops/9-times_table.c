@@ -6,26 +6,19 @@
  */
 void times_table(void)
 {
-	int d;
-	int e;
-	int multiply;
+	int d = 0;
+	int product;
 
-	for (d = 0; d < 10; d++)
+	for (d = 0; d <= 9; d++)
 	{
-		for (e = 0; e < 10; e++)
+		_putchar((product / 10) + '0');
+		_putchar((product % 10) + '0');
+		if (d < 9)
 		{
-			multiply = d * e;
-			if (e == 0)
-				printf("%d, ", multiply);
-			else
-			{
-				printf("%2d", multiply);
-				if (e != 0)
-					printf(", ");
-			}
-
+			_putchar(',');
+			_putchar(' ');
 		}
-		printtf("\n");
+		_putchar("\n");
 	}
 
 }
