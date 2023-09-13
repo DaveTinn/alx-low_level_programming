@@ -28,7 +28,6 @@ void times_table(void)
 			if (e < 9)
 			{
 				_putchar(',');
-				_putchar(' ');
 			}
 			else
 			{
