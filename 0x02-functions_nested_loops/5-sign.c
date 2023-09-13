@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Entry point
+ * print_sign- Function for sign of a number.
  * @n: Parameter to be checked. 
  * Return: 1 if n is greater than 0, else if 0, else -1
  */
