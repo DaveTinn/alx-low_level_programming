@@ -11,9 +11,9 @@ void times_table(void)
 	int e;
 	int product;
 
-	for (d = 0; d <= 9; d++)
+	for (d = 0; d < 10; d++)
 	{
-		for (e = 0; e <= 9; e++)
+		for (e = 0; e < 10; e++)
 		{
 			product = d * e;
 			if (product < 10)
