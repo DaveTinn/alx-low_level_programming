@@ -24,6 +24,7 @@ void times_table(void)
 			{
 				_putchar((product / 10) + '0');
 				_putchar((product % 10) + '0');
+			}
 			if (e < 9)
 			{
 				_putchar(',');
@@ -35,5 +36,4 @@ void times_table(void)
 			}
 		}
 	}
-
 }
