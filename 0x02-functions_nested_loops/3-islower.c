@@ -2,13 +2,14 @@
 /**
  * _islower - Entry point
  *
- * Return: Always 0
+ * Return: 1 if lowercase, else 0.
  */
 int _islower(int c)
 {
-	if (c >= 'a' || c >= 'z')
-	       return (1);
+	int c;
 
+	if (c >= 'a' || c <= 'z')
+		return (1);
 	else
 		return (0);
 }
