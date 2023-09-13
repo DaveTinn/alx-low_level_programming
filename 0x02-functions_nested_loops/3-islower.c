@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _islower - Entry point
- *
+ * _islower - To check if alphabet is lowercase
+ * @c: parameter to be checked.
  * Return: 1 if lowercase, else 0.
  */
+
 int _islower(int c)
 {
 	if (c >= 'a' || c >= 'z')
