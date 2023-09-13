@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  *  add- Function adding two intergers'
- *@d: parameter to for addition
- @e: parameter for addition
+ * @d: Parameter for addition
+ * @e: Parameter for addition
  * Return: add_result
  */
 int add(int d, int e)
