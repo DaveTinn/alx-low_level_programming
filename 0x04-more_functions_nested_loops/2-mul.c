@@ -2,12 +2,15 @@
 
 /**
  * mul - Function to multiply two integers. 
- * @a: character to be multiplied
- * @b: character to be multiplied
+ * @d: Parameter for multiplication.
+ * @e: Parameter to be multiplication.
  *
- * Return: a * b.
+ * Return: d * e.
  */
 int mul(int a, int b)
 {
-	return (a * b);
+	int product;
+
+	product = d * e;
+	return (product);
 }
