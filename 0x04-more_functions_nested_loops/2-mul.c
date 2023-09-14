@@ -1,16 +1,15 @@
 #include "main.h"
-
 /**
- * mul - Function to multiply two integers. 
- * @d: Parameter for multiplication.
- * @e: Parameter to be multiplication.
+ * mul - Function to multiply two integers.
+ * @a: Parameter for multiplication.
+ * @b: Parameter to be multiplication.
  *
- * Return: d * e.
+ * Return: a * b.
  */
 int mul(int a, int b)
 {
 	int product;
 
-	product = d * e;
+	product = a * b;
 	return (product);
 }
