@@ -3,7 +3,7 @@
 /**
  * _isupper - Function that checks for uppercase character.
  * @c: character to be checked
- * Return: Always 0.
+ * Return: Always 1 or 0.
  */
 int _isupper(int c)
 {
