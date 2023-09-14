@@ -10,5 +10,4 @@ void positive_or_negative(int i)
 	else
 		printf("%d is negative", i);
 	printf("\n");
-	return (0);
 }
