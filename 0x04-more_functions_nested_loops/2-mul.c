@@ -5,9 +5,9 @@
  * @a: character to be multiplied
  * @b: character to be multiplied
  *
- * Return: Always 0.
+ * Return: a * b.
  */
 int mul(int a, int b)
 {
-	return (a * );
+	return (a * b);
 }
