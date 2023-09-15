@@ -1,10 +1,9 @@
 #include "main.h"
 /**
 * print_most_numbers - Function printing numbers except some.
-* @c: parameter to be checked
+*
 * return: 0 Always
 */
-void _putchar(char c);
 void print_most_numbers(void)
 {
 	char c;
