@@ -4,13 +4,12 @@
  *
  * Return: Always 0.
  */
+void _putchar(char c);
 void print_numbers(void)
 {
-	int d;
+	int c;
 
-	for (d = 0; d <= 9; d++)
-	{
-		_putchar(d + '0');
-	}
+	for (c = 0; c <= 9; c++)
+		_putchar(c + '0');
 	_putchar('\n');
 }
