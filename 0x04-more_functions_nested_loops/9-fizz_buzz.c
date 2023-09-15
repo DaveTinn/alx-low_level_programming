@@ -18,7 +18,7 @@ int main(void)
 			printf("%s", "Buzz");
 		else
 			printf("%d", d);
-		if (d == 100)
+		if (d != 100)
 			printf(" ");
 	}
 	printf("\n");
