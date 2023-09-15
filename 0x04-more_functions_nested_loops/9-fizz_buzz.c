@@ -12,9 +12,9 @@ int main(void)
 	{
 		if ((d % 3 == 0) && (d % 5 == 0))
 			printf("%s", "FizzBuzz");
-		else if (i % 3 == 0)
+		else if (d % 3 == 0)
 			printf("%s", "Fizz");
-		else if (i % 5 == 0)
+		else if (d % 5 == 0)
 			printf("%s", "Buzz");
 		else
 			printf("%d", d);
