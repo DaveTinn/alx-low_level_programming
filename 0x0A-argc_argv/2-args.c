@@ -12,6 +12,6 @@ int main(int agrc, char *agrv[])
 	int d;
 
 	for (d = 0; d < agrc; d++)
-                printf("%s\n", agrv[d]);
-        return (0);
+		printf("%s\n", agrv[d]);
+	return (0);
 }
