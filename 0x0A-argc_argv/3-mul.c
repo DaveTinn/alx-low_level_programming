@@ -15,5 +15,5 @@ int main(int agrc, char *agrv[])
 		return (1);
 	}
 	printf("%d\n", atoi(agrv[1]) * atoi(agrv[2]));
-        return (0);
+	return (0);
 }
