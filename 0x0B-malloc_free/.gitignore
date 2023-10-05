@@ -1,0 +1,5 @@
+# ignores the listed files
+f
+s
+c
+_putchar.c
