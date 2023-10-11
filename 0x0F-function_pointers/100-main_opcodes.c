@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 	int d;
 	unsigned char opcode;
 	int (*hexa_lower)(int, char **) = main;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
