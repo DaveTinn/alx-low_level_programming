@@ -1,6 +1,5 @@
 #include "lists.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * print_list - prints all elements of a list
  * @h: head pointing to a list
@@ -11,7 +10,7 @@ size_t print_list(const list_t *h)
 {
 	int element = 0;
 
-	while (h)
+	while (h != NULL)
 	{
 		if (h->str == NULL)
 		{
