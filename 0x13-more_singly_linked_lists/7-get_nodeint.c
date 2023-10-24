@@ -4,7 +4,7 @@
  * @head: pointer to a singly linked list
  * @index: index of the node
  *
- * Return: 0 Always
+ * Return: nth node else NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
