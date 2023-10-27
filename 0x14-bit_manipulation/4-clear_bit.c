@@ -8,14 +8,14 @@
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	size_t clr_val;
+	size_t bit_val;
 
-	clr_val = 1;
+	bit_val = 1;
 	if (index > sizeof(size_t) * 8)
 	{
 		return (-1);
 	}
-	clr_val = clr_val << index;
-	*n = *n & ~clr_val;
+	bit_val = bit_val << index;
+	*n = *n & ~bit_val;
 	return (1);
 }
