@@ -30,6 +30,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	num_of_letters = read(file_ptr, cache, letters);
 	amt_of_bytes = write(STDOUT_FILENO, cache, num_of_letters);
+	close(file_ptr);
 	free(cache);
 	return (amt_of_bytes);
 }
