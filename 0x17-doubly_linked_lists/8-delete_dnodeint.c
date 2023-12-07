@@ -9,14 +9,13 @@
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *del_node;
-	unsigned int itr;
 
 	del_node = *head;
 	if (*head == NULL)
 	{
 		return (-1);
 	}
-	for (itr = 0; itr < index && del_node != 0; itr++)
+	for (; index != 0; index--)
 	{
 		if (del_node == NULL)
 		{
