@@ -1,3 +1,5 @@
 school
 main.c
 school.c
+school.o
+main.o
